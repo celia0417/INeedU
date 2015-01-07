@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--text sizes for request list-->
+    <dimen name="user">20dip</dimen>
+    <dimen name="location">16dip</dimen>
+    <dimen name="time">16dip</dimen>
+    <dimen name="credit">13dip</dimen>
+    <dimen name="content">12dip</dimen>
+
+    <!--text sizes for profile basic list-->
+    <dimen name="email">26dp</dimen>
+    <dimen name="dob">22dp</dimen>
+    <dimen name="credit2">22dp</dimen>
+    <dimen name="activity">30dp</dimen>
+
+</resources>

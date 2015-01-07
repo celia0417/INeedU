@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp" >
+
+        <Button
+            style="@style/DefaultButtonText"
+            android:background="@drawable/logout_button_bg"
+            android:id="@+id/logout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN OUT"
+            android:textColor="#212121"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/my_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            android:text="MyProfile" />
+
+        <!--email-->
+        <TextView
+            android:id="@+id/profile_email"
+            android:background="@drawable/profile_top_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="16dp"
+            android:layout_below="@id/my_profile"
+            android:layout_marginTop="10dp"
+            android:padding="3dp"
+            android:text="Email"/>
+
+        <!--date of birth-->
+        <TextView
+            android:id="@+id/profile_dob"
+            android:background="@drawable/profile_mid_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="16dp"
+            android:padding="3dp"
+            android:layout_below="@id/profile_email"
+            android:text="Date of Birth"/>
+
+        <!-- credit -->
+        <TextView
+            android:id="@+id/profile_credit"
+            android:background="@drawable/profile_but_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_dob"
+            android:textSize="16dp"
+            android:padding="3dp"
+            android:text="Credit"/>
+
+        <!-- activity -->
+        <TextView
+            android:id="@+id/profile_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_credit"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            android:textSize="@dimen/activity"
+            android:text="MyActivity"/>
+
+        <ExpandableListView
+            android:id="@+id/profile_activitylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tab_bg"
+            android:layout_below="@id/profile_activity"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

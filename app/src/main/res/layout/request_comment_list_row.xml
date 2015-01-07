@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- user -->
+    <TextView
+        android:id="@+id/comment_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="User: "/>
+
+    <!-- time -->
+    <TextView
+        android:id="@+id/comment_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="10dp"
+        android:text="time" />
+
+    <TextView
+        android:id="@+id/comment_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comment_time"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        android:lines="2"
+        android:singleLine="false"
+        android:inputType="textMultiLine"
+        android:background="@drawable/textlines"/>
+
+</RelativeLayout>

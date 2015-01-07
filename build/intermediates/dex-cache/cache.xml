@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Chang/Documents/NeedOne/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Users/Chang/Documents/NeedOne/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-0d1233de80ce8d31161d1841266aa4b9d81a42e3.jar" />
+    </item>
+    <item
+        jar="/Users/Chang/Documents/NeedOne/app/src/main/libs/volley.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/Users/Chang/Documents/NeedOne/app/build/intermediates/pre-dexed/debug/volley-1649674984c0189bcaa6021798088cab1a6883c9.jar" />
+    </item>
+    <item
+        jar="/Users/Chang/Documents/NeedOne/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/Users/Chang/Documents/NeedOne/app/build/intermediates/pre-dexed/debug/classes-42c5edc27a987db5e4a8acc5b6d7df6450c38b92.jar" />
+    </item>
+    <item
+        jar="/Users/Chang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/Users/Chang/Documents/NeedOne/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-a16b545b5111ba86a832c4d734c55473c938d281.jar" />
+    </item>
+    <item
+        jar="/Users/Chang/Documents/NeedOne/app/src/main/libs/ojdbc6.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a483a046eee2f404d864a6ff5b09dc0e1be3fe6c">
+        <dex dex="/Users/Chang/Documents/NeedOne/app/build/intermediates/pre-dexed/debug/ojdbc6-3dacf94a16141145781cedbbdcd690953cb34e9e.jar" />
+    </item>
+    <item
+        jar="/Users/Chang/Documents/NeedOne/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Users/Chang/Documents/NeedOne/app/build/intermediates/pre-dexed/debug/classes-5a44b7c1766bbca785609c3cd8f74ad46c9d86fb.jar" />
+    </item>
+
+</items>

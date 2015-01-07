@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+    <!---->
+
+    <!--&lt;!&ndash; Thumbnail Image &ndash;&gt;-->
+    <!--<com.android.volley.toolbox.NetworkImageView-->
+    <!--android:id="@+id/thumbnail"-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_marginRight="8dp" />-->
+
+    <!-- username -->
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:background="@drawable/request_mid_bg"
+        android:padding="5dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="22dp"
+        android:text="User:" />
+
+    <!-- location -->
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user"
+        android:background="@drawable/request_mid_bg"
+        android:padding="5dp"
+        android:textSize="@dimen/location"
+        android:text="Location:" />
+
+    <!-- time -->
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:background="@drawable/request_mid_bg"
+        android:padding="5dp"
+        android:textSize="@dimen/time"
+        android:text="Time:"/>
+
+    <!--expire time-->
+    <TextView
+        android:id="@+id/exptime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:background="@drawable/request_mid_bg"
+        android:padding="5dp"
+        android:textSize="@dimen/time"
+        android:text="Expire Time:"/>
+
+    <!-- credit -->
+    <TextView
+        android:id="@+id/credit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exptime"
+        android:background="@drawable/request_mid_bg"
+        android:padding="5dp"
+        android:textSize="16dip"
+        android:text="Credit: "/>
+
+    <!-- content -->
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/credit"
+        android:background="@drawable/request_mid_bg"
+        android:padding="5dp"
+        android:textSize="16dip"
+        android:text="Content:" />
+
+</RelativeLayout>

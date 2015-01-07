@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dip"
+    android:orientation="vertical" >
+
+    <!-- username -->
+    <TextView
+        android:id="@+id/pa_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/logintext_top_bg"
+        android:padding="5dp"
+        android:textSize="12dip"
+        android:text="User: " />
+
+    <!-- location -->
+    <TextView
+        android:id="@+id/pa_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pa_user"
+        android:background="@drawable/logintext_mid_bg"
+        android:padding="5dp"
+        android:textSize="10dip"
+        android:text="Location: " />
+
+    <!-- time -->
+    <TextView
+        android:id="@+id/pa_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pa_location"
+        android:background="@drawable/logintext_mid_bg"
+        android:padding="5dp"
+        android:textSize="10dip"
+        android:text="Time: " />
+
+    <!-- expire time -->
+    <TextView
+        android:id="@+id/pa_exptime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pa_time"
+        android:textSize="10dip"
+        android:background="@drawable/logintext_mid_bg"
+        android:padding="5dp"
+        android:text="Expire Time: "/>
+
+    <!-- credit -->
+    <TextView
+        android:id="@+id/pa_credit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pa_exptime"
+        android:textSize="10dip"
+        android:background="@drawable/logintext_mid_bg"
+        android:padding="5dp"
+        android:text="Credit:"/>
+
+    <!-- content -->
+    <TextView
+        android:id="@+id/pa_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pa_credit"
+        android:background="@drawable/logintext_bottom_bg"
+        android:padding="5dp"
+        android:textSize="10dip"
+        android:text="Content:" />
+
+</RelativeLayout>
