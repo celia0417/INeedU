@@ -84,6 +84,7 @@ public class DealClient {
         }
         return success;
     }
+    
     public static void main(String[] args) {
         String url = "http://server-npcxbe6d2s.elasticbeanstalk.com/Deal";
         DealClient client = new DealClient(url);
